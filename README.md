@@ -74,16 +74,21 @@ I used so many tools for this project.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This project provides an Ubuntu 18.04 vm for you to safely practice the tutorials without affecting
+your local environment.  To get up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-<!--
-* npm
+* [ VirtualBox ](https://www.virtualbox.org/wiki/Downloads) or your choice of Virtual Machine manager
+that provides compatibility with vagrant.
+
+* [ vagrant ](https://www.vagrantup.com/)
   ```sh
-  npm install npm@latest -g
+  # using Homebrew
+  brew install vagrant
+  # using apt
+  apt install vagrant
+
   ```
 
 ### Installation
@@ -92,7 +97,17 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/TimSpence/diy-ide.git
    ```
--->
+2. Set up your vm
+   ```sh
+   vagrant init
+   vagrant up
+   ```
+3. Try it out
+   ```sh
+   vagrant ssh
+   # the project root folder is linked to $HOME/diy-ide in the vm
+   cd ./diy-ide
+   ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -108,7 +123,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues). -->
 * :white_check_mark: Write this README
-* Create an ubuntu VM with Vagrant
+* :white_check_mark: Create an ubuntu VM with Vagrant
 * Write a template to use for tutorials
 * Make an asciinema for first lesson: setting up tmux
 * Script an asciinema recorder
