@@ -5,7 +5,7 @@
 # @file        : bootstrap
 # @created     : Saturday Jun 12, 2021 14:51:19 PDT
 #
-# @description : 
+# @description : bootstrap and configure the vm
 ######################################################################
 
 # link project inside home folder
