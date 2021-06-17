@@ -121,7 +121,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- TUTORIALS -->
 ## Tutorials
 Check out the tutorials:
-* [ tmux ](./tutorials/tmux/README.md)
+* [ tmux ](./tutorials/README.md)
 
 
 <!-- ROADMAP -->
