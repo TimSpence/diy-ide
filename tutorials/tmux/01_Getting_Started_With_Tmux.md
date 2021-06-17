@@ -11,6 +11,10 @@
 
 <a href="https://asciinema.org/a/iEqMKGIvAEs4vJ8fxE7VK3WGx"><img src="./posters/01-2x.gif" /></a>
 
+### SVG
+<a href="https://asciinema.org/a/iEqMKGIvAEs4vJ8fxE7VK3WGx"><img src="./posters/01.svg" /></a>
+
+
 ## Execution plan
 1. This README
 1. Add Tutorials section to project documentation
