@@ -10,12 +10,12 @@
 ## Cast
 
 <p align="center">
-<a href="https://asciinema.org/a/iEqMKGIvAEs4vJ8fxE7VK3WGx"><img src="./posters/01-2x-smol.gif" width="75%" /></a>
+<a href="https://asciinema.org/a/urSSOVNccYewDQKYxvU9EdLXZ"><img src="./posters/01_Getting_Started_With_Tmux.gif" width="75%" /></a>
 </p>
 
 ### SVG
 <p align="center">
-<a href="https://asciinema.org/a/iEqMKGIvAEs4vJ8fxE7VK3WGx"><img src="./posters/01-smol.svg" width="75%" /></a>
+<a href="https://asciinema.org/a/urSSOVNccYewDQKYxvU9EdLXZ"><img src="./posters/01_Getting_Started_With_Tmux.svg" width="75%" /></a>
 </p>
 
 
