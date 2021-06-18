@@ -71,6 +71,8 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 I used so many tools for this project.
 * [asciinema](https://asciinema.org/)
+* [svg-term-cli](https://github.com/marionebl/svg-term-cli)
+* [asciicast2gif](https://github.com/asciinema/asciicast2gif)
 
 <!-- GETTING STARTED -->
 ## Getting Started

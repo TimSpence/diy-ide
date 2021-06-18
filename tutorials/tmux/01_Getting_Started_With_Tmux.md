@@ -9,10 +9,10 @@
 
 ## Cast
 
-<a href="https://asciinema.org/a/iEqMKGIvAEs4vJ8fxE7VK3WGx"><img src="./posters/01-2x.gif" /></a>
+<a href="https://asciinema.org/a/iEqMKGIvAEs4vJ8fxE7VK3WGx"><img src="./posters/01-2x-smol.gif" /></a>
 
 ### SVG
-<a href="https://asciinema.org/a/iEqMKGIvAEs4vJ8fxE7VK3WGx"><img src="./posters/01.svg" /></a>
+<a href="https://asciinema.org/a/iEqMKGIvAEs4vJ8fxE7VK3WGx"><img src="./posters/01-smol.svg" /></a>
 
 
 ## Execution plan
