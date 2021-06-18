@@ -9,7 +9,7 @@
 ######################################################################
 set -e
 
-if [ -n $TMUX ]; then
+if [ ! -z $TMUX ]; then
     echo "LOL YOU'RE USING TMUX"
 fi
 
@@ -49,8 +49,11 @@ else
     option_append=''
 fi
 
-vagrant_command=' tmux attach || tmux new -s demo || /bin/sh'
-asciinema_command="vagrant ssh --command "$vagrant_command""
+#vagrant_command='tmux attach' # || tmux new -s demo || /bin/sh'
+#printf "vagrant_command is '$vagrant_command'\n"
+asciinema_command="vagrant ssh default" # --command '$vagrant_command'"
+printf "asciinema_command is '$asciinema_command'\n"
+# asciinema rec --append --title 'Please change me' --command 'vagrant ssh default --command \'\''tmux attach\'\''' tutorials/tmux/casts/00_Please_change_me.cast
 asciinema rec $option_append --title "$cast_title" --command "$asciinema_command" $cast_path
 
 printf "\nYOU SHOULD PROBABLY SNAPSHOT VAGRANT\n\n"
